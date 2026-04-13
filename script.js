@@ -1,5 +1,5 @@
 function joinNow(){
-alert("Welcome to FitZone Gym! Registration coming soon.");
+alert("Welcome to Bodysphere Gym! Registration coming soon.");
 }
 
 document.getElementById("contactForm").addEventListener("submit", function(e){
