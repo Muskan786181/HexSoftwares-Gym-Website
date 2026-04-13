@@ -1,0 +1,174 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#111;
+color:white;
+line-height:1.6;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:black;
+position:sticky;
+top:0;
+}
+
+.logo{
+color:#ff4c29;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:30px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#ff4c29;
+}
+
+/* Hero Section */
+
+.hero{
+height:90vh;
+
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 30px;
+border:none;
+background:#ff4c29;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* Sections */
+
+.section{
+padding:80px 100px;
+text-align:center;
+}
+
+/* Services */
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.service{
+background:#222;
+padding:30px;
+border-radius:10px;
+width:250px;
+transition:0.3s;
+}
+
+.service:hover{
+transform:translateY(-10px);
+background:#ff4c29;
+}
+
+/* Plans */
+
+.plans{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.plan{
+background:#222;
+padding:30px;
+border-radius:10px;
+width:220px;
+}
+
+.plan button{
+margin-top:15px;
+padding:10px 20px;
+border:none;
+background:#ff4c29;
+color:white;
+cursor:pointer;
+}
+
+/* Contact */
+
+form{
+display:flex;
+flex-direction:column;
+width:350px;
+margin:auto;
+gap:10px;
+}
+
+input,textarea{
+padding:10px;
+border:none;
+border-radius:5px;
+}
+
+button{
+padding:10px;
+background:#ff4c29;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+margin-top:50px;
+}
